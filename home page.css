@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+.container{
+    background-attachment: fixed;
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Colombo.jpg);
+    background-size: cover;
+    padding: 10px 10%;
+}
+.topnav{
+    background-color: transparent;
+    overflow: hidden;
+    font-family: cursive;
+    color: white;
+}
+.logo{
+    width: 8%;
+    cursor: pointer;
+}
+.topnav a{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover{
+    background-color: white;
+    color: black;
+}
+.topnav a.active{
+    background-color:lightgreen;
+    color: black;
+}
+.about img{
+    width: 40%;
+}
+.content_image img{
+    width: 25%;
+    
+    float:left; 
+    margin-right: 15px;
+     margin-bottom: 5px;
+}
+
+    
+    
+

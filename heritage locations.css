@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+.container{
+    background-attachment: fixed;
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(heritage.jpg);
+    background-size: cover;
+    padding: 10px 10%;
+}
+.topnav{
+    background-color: transparent;
+    overflow: hidden;
+    font-family: cursive;
+    color: white;
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+.topnav a{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover{
+    background-color: white;
+    color: black;
+}
+.topnav a.active{
+    background-color:lightgreen;
+    color: black;
+}
+.fade-in{
+    animation:fadeIn 6s;
+}
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.text{
+    color: white;
+    position: relative;
+    animation:text 3s 1;
+}
+@keyframes text{
+    0%{
+        color: black;
+        margin-bottom: 40px;
+    }
+    30%{
+        letter-spacing: 25px;
+        margin-bottom: 40px;
+    }
+}
